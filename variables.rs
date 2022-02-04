@@ -22,5 +22,8 @@ fn main() {
     println!("{}", integer);
 
     let my_char:char = 'c';
-    println!("{}at", my_char)
+    println!("{}at", my_char);
+
+    let my_str:&str = "This is a string";
+    println!("{}", my_str);
 }

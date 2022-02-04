@@ -14,4 +14,10 @@ fn main() {
 
     let (course, category) = ("Rust", "beginner");
     println!("This is a {0} course in {1}", category, course);
+
+    let float:f32 = 3.44;
+    println!("{}", float);
+
+    let integer:i32 = 69;
+    println!("{}", integer)
 }

@@ -19,5 +19,8 @@ fn main() {
     println!("{}", float);
 
     let integer:i32 = 69;
-    println!("{}", integer)
+    println!("{}", integer);
+
+    let my_char:char = 'c';
+    println!("{}at", my_char)
 }

@@ -15,15 +15,15 @@ fn main() {
     let (course, category) = ("Rust", "beginner");
     println!("This is a {0} course in {1}", category, course);
 
-    let float:f32 = 3.44;
+    let float: f32 = 3.44;
     println!("{}", float);
 
-    let integer:i32 = 69;
+    let integer: i32 = 69;
     println!("{}", integer);
 
-    let my_char:char = 'c';
+    let my_char: char = 'c';
     println!("{}at", my_char);
 
-    let my_str:&str = "This is a string";
+    let my_str: &str = "This is a string";
     println!("{}", my_str);
 }
